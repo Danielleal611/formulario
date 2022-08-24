@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"> 
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="formulario">
+        <h2>formulario</h2>
+        <label for="nombre">nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="nombre" required> <br> <br>
+        <label for="apellido">apellido</label> 
+        <input type="text" id="apellido" name="apellido" placeholder="apellido" required> <br> <br>
+        <label for="tipo de documento">tipo de documento</label>
+        <select name="tipo de documento">
+            <option value="cedula de ciudadania"> cedula de ciudadania</option>
+            <option value="tarjeta de identidad"> tarjeta de identidad</option>
+            <option value="cedula de extranjeria"> cedula de extranjeria</option>
+        </select> <br> <br>
+        <label for="numero de documento">numero de documento</label>
+        <input type="text" id="numero de documento" name="numero de documento" placeholder="numero de documento" required> <br> <br>    
+        <label for="correo">correo</label>
+        <input type="mail" id="correo" name="correo" placeholder="correo" required> <br> <br>
+        <label for="contraseña">contraseña</label>
+        <input type="password" id="contraseña" name="contraseña" placeholder="contraseña" required> <br> <br>
+        <label for="masculino">masculino</label>
+        <input type="radio" id "masculino" name="masculino-femenino"><br> <br>
+        <label for="femenino">femenino</label>
+        <input type="radio" id "femenino" name="masculino-femenino"><br> <br>
+         
+        <input class="boton" type="submit">
+    </form>
+</body>
+</html>
