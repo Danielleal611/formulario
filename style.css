@@ -35,6 +35,8 @@ input{
 }
 select{
     background-color: darkcyan;
+    border-radius: 6px;
     border: 1px white solid;
     color: #fff;
+
 }
